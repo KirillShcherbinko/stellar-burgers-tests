@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode=development",
     "test": "jest",
-    "cypress": "./node_modules/.bin/cypress open"
+    "cypress:open": "cypress open",
+    "format": "prettier ./src --write"
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
